@@ -1,0 +1,39 @@
+.header {
+	padding-block: 1rem;
+	margin: -0.5rem 3rem;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	/* width: 100%; */
+
+	font-size: 1.6rem;
+	font-family: var(--txt-medium);
+}
+
+.navbar__logo {
+	margin-inline-start: -1.4rem;
+}
+.navbar__logo-img {
+	margin-block-start: 1.5rem;
+	margin-inline-start: -0.9rem;
+}
+.navbar__items {
+	display: flex;
+	justify-content: space-between;
+	gap: 3.2rem;
+	list-style: none;
+	color: var(--clr-primary);
+}
+
+.navbar__item {
+	text-transform: capitalize;
+}
+
+.navbar__btn-container {
+	display: flex;
+	gap: 1.5rem;
+}
