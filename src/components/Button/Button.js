@@ -1,12 +1,14 @@
 import './Button.css';
 
-const Button = function ({ text, color, type = 'primary' }) {
+const Button = function ({ text, color, arrow, type = 'primary' }) {
 	return (
 		<button
 			type='button'
 			className={`btn btn--${type}${color ? `-${color}` : ''}`}
 		>
-			{text}
+			<span className='btn__text'>{text}</span>
+			{'  '}
+			<span className='btn__arrow'> {arrow || ''}</span>
 		</button>
 	);
 };

@@ -23,6 +23,10 @@
 .btn--link-green {
 	background: transparent;
 	box-shadow: none;
+	/* text-decoration: underline; */
+}
+
+.btn[class*='link'] > .btn__text {
 	text-decoration: underline;
 }
 
