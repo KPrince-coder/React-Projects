@@ -24,7 +24,8 @@ const Hero = function () {
 						<Button
 							type={'link'}
 							color={'grey'}
-							text={'see how it works  \u27F6'}
+							text={'see how it works'}
+							arrow={'\u279E'}
 						/>
 						{/* TODO: redirect link  */}
 					</div>

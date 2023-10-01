@@ -1,7 +1,7 @@
 .hero {
 	display: flex;
 	gap: 6rem;
-	margin: 4rem;
+	margin: var(--margin-inline);
 	margin-inline-end: 0;
 }
 
@@ -10,6 +10,7 @@
 	flex-direction: column;
 	gap: 4rem;
 	justify-content: center;
+	align-self: flex-start;
 	width: 46%;
 }
 
@@ -39,7 +40,8 @@
 }
 
 .hero__subtitle {
-	font-family: var(--txt-regular);
+	font-family: var(--txt-Mont);
+	font-weight: 500;
 	font-size: 1.4rem;
 	color: var(--clr-txt1);
 	line-height: 1.5;
