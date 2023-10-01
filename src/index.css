@@ -24,6 +24,11 @@
 	src: url(./assets/fonts/Poppins-Light.ttf);
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
 /* *********** xxxxx ********************* */
 
 :root {
@@ -34,6 +39,7 @@
 	--txt-medium: 'Poppins-medium';
 	--txt-regular: 'Poppins-regular';
 	--txt-light: 'Poppins-light';
+    --txt-Mont: 'Montserrat'
 
 	--clr-primary: #1d2027;
 	--clr-grey: #cccccc;
