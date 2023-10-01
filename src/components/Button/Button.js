@@ -1,8 +1,11 @@
 import './Button.css';
 
-const Button = function ({ text, type = 'primary' }) {
+const Button = function ({ text, color, type = 'primary' }) {
 	return (
-		<button type='button' className={`btn btn--${type}`}>
+		<button
+			type='button'
+			className={`btn btn--${type}${color ? `-${color}` : ''}`}
+		>
 			{text}
 		</button>
 	);

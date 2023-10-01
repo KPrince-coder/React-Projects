@@ -1,9 +1,11 @@
 .btn {
 	font-size: 1.6rem;
+	font-family: var(--txt-medium);
+	text-transform: capitalize;
 	padding: 0.5em 1em;
 	border: none;
 	border-radius: 0.8rem;
-	box-shadow: 0 0 0.5rem 0.04rem rgb(218, 218, 218);
+	box-shadow: 0 0 0.2rem 0.04rem rgb(218, 218, 218);
 	transition: var(--transition-ease-in-out);
 }
 
@@ -15,6 +17,21 @@
 .btn--secondary {
 	color: var(--clr-primary);
 	background-color: var(--clr-tertiary);
+}
+
+.btn--link-grey,
+.btn--link-green {
+	background: transparent;
+	box-shadow: none;
+	text-decoration: underline;
+}
+
+.btn--link-green {
+	color: var(--clr-txt2);
+}
+
+.btn--link-grey {
+	color: var(--clr-txt1);
 }
 
 .btn:where(:focus, :hover) {
