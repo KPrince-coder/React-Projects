@@ -6,13 +6,13 @@ const Hero = function () {
 	return (
 		<section className='hero'>
 			<section className='hero__text'>
-				<p className='hero__title'>
+				<h1 className='hero__title'>
 					Easy Way to Save your Money with{' '}
 					<span className='hero__logo-name'>
 						<strong className='hero__logo-name--bold'>Atom</strong>
 						Bank.
 					</span>
-				</p>
+				</h1>
 				<p className='hero__subtitle'>
 					The best place to transact and save money. We make all
 					payments easier and simpler. Receive and send payment funds

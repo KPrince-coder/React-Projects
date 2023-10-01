@@ -45,7 +45,7 @@ const SecurityInfo = function ({ title, subtitle, imgSrc, altMessage }) {
 					<img src={imgSrc} alt={altMessage} />
 				</figure>
 				<div className='security-info__text'>
-					<p className='security-info__title'>{title}</p>
+					<h3 className='security-info__title'>{title}</h3>
 					<p className='security-info__subtitle'>{subtitle}</p>
 				</div>
 			</div>
