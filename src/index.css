@@ -25,8 +25,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+	font-family: 'Montserrat';
+	src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 /* *********** xxxxx ********************* */
@@ -39,7 +39,7 @@
 	--txt-medium: 'Poppins-medium';
 	--txt-regular: 'Poppins-regular';
 	--txt-light: 'Poppins-light';
-    --txt-Mont: 'Montserrat'
+	--txt-Mont: 'Montserrat';
 
 	--clr-primary: #1d2027;
 	--clr-grey: #cccccc;
@@ -50,6 +50,13 @@
 	--clr-txt3: #32be4b;
 
 	--clr-white: #ffffff;
+
+	--color: #494b4e;
+	--bg-img: radial-gradient(var(--color), var(--clr-primary));
+
+	--border-radius: 0.8rem;
+
+	--margin-inline: 8rem;
 
 	--transition-ease-in-out: all 0.25s ease-in-out;
 }

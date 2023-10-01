@@ -1,6 +1,6 @@
 .header {
 	padding-block: 1rem;
-	margin: 0rem 8rem; /*TODO:use clamp for margin and gaps*/
+	margin: 0rem var(--margin-inline); /*TODO:use clamp for margin and gaps*/
 }
 
 .navbar {
