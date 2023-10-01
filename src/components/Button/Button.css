@@ -4,14 +4,14 @@
 	text-transform: capitalize;
 	padding: 0.5em 1em;
 	border: none;
-	border-radius: 0.8rem;
+	border-radius: var(--border-radius);
 	box-shadow: 0 0 0.2rem 0.04rem rgb(218, 218, 218);
 	transition: var(--transition-ease-in-out);
 }
 
 .btn--primary {
 	color: var(--clr-white, white);
-	background-color: var(--clr-primary);
+	background-image: var(--bg-img);
 }
 
 .btn--secondary {
@@ -23,11 +23,16 @@
 .btn--link-green {
 	background: transparent;
 	box-shadow: none;
-	/* text-decoration: underline; */
 }
 
 .btn[class*='link'] > .btn__text {
 	text-decoration: underline;
+}
+
+.btn[class*='link'] > .btn__text::after {
+	content: '\00A0';
+	display: inline-block;
+	width: 0.7rem;
 }
 
 .btn--link-green {
