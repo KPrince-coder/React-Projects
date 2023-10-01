@@ -44,4 +44,6 @@
 	--clr-txt3: #32be4b;
 
 	--clr-white: #ffffff;
+
+	--transition-ease-in-out: all 0.25s ease-in-out;
 }
