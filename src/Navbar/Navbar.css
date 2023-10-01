@@ -1,15 +1,12 @@
 .header {
 	padding-block: 1rem;
-	margin: -0.5rem 3rem;
+	margin: 0rem 3rem;
 }
 
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-	/* width: 100%; */
-
 	font-size: 1.6rem;
 	font-family: var(--txt-medium);
 }
@@ -26,11 +23,17 @@
 	justify-content: space-between;
 	gap: 3.2rem;
 	list-style: none;
+	transition: var(--transition-ease-in-out);
+}
+.navbar__item > a {
 	color: var(--clr-primary);
+	text-transform: capitalize;
+	text-decoration: none;
 }
 
-.navbar__item {
-	text-transform: capitalize;
+.navbar__item > :where(:focus, :hover) {
+	color: var(--clr-primary);
+	opacity: 0.8;
 }
 
 .navbar__btn-container {
