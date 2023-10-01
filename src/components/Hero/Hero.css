@@ -1,0 +1,52 @@
+.hero {
+	display: flex;
+	gap: 6rem;
+	margin: 4rem;
+	margin-inline-end: 0;
+}
+
+.hero__text {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	justify-content: center;
+	width: 46%;
+}
+
+.hero__title {
+	color: var(--clr-primary);
+	font-family: var(--txt-regular);
+	font-size: 5.2rem;
+	line-height: 1.25;
+}
+
+.hero__logo-name {
+	position: relative;
+}
+.hero__logo-name::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: 1.4rem;
+	left: 0;
+	height: 0.46rem;
+	width: 100%;
+	background-color: var(--clr-txt3);
+}
+
+.hero__logo-name--bold {
+	font-family: var(--txt-bold);
+}
+
+.hero__subtitle {
+	font-family: var(--txt-regular);
+	font-size: 1.4rem;
+	color: var(--clr-txt1);
+	line-height: 1.5;
+}
+
+.hero__btn-container {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
