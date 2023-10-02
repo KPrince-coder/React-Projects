@@ -19,10 +19,10 @@
 	background-color: var(--clr-tertiary);
 }
 
-.btn--link-grey,
-.btn--link-green {
+.btn[class*='link'] {
 	background: transparent;
 	box-shadow: none;
+	padding: 0;
 }
 
 .btn[class*='link'] > .btn__text {
