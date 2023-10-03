@@ -55,8 +55,24 @@
 	--bg-img: radial-gradient(var(--color), var(--clr-primary));
 
 	--border-radius: 0.8rem;
+	--box-shadow: 0 0 0.2rem 0.04rem rgb(218, 218, 218);
 
 	--margin-inline: 8rem;
 
 	--transition-ease-in-out: all 0.25s ease-in-out;
+}
+
+/* ***** all h2 which are titles ***** */
+.section__title {
+	font-family: var(--txt-light);
+	font-size: 3.2rem;
+	color: var(--clr-primary);
+}
+
+/* ***** global styles for all subtitles **** */
+.section__subtitle {
+	font-family: var(--txt-Mont);
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: var(--clr-txt1);
 }

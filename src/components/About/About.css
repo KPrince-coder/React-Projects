@@ -22,22 +22,16 @@
 	gap: 2.4rem;
 }
 
-.about__title {
-	font-family: var(--txt-light);
-	font-size: 3.2rem;
-	color: var(--clr-primary);
-}
-
 .logo-name--bold {
 	font-family: var(--txt-semibold);
 }
 
-.about__subtitle {
+/* .about__subtitle {
 	font-family: var(--txt-Mont);
 	font-size: 1.6rem;
 	font-weight: 500;
 	color: var(--clr-txt1);
-}
+} */
 
 .about__btn {
 	display: flex;

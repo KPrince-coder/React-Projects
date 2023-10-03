@@ -82,10 +82,10 @@ const AboutItem = function ({ imgSrc, altMessage, title, subtitle, button }) {
 				<img src={imgSrc} alt={altMessage} />
 			</figure>
 			<div className='about__text'>
-				<h2 className='about__title'>
+				<h2 className='section__title'>
 					{title.startsWith('Atom') ? <Logo title={title} /> : title}
 				</h2>
-				<p className='about__subtitle'>{subtitle}</p>
+				<p className='section__subtitle'>{subtitle}</p>
 				<div className='about__btn'>{button}</div>
 			</div>
 		</section>
