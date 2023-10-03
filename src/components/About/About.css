@@ -51,4 +51,5 @@
 
 .about__img-btn {
 	width: 16rem;
+	cursor: pointer;
 }
