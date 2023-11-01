@@ -18,7 +18,7 @@ const Footer = function () {
 						<section className='footer__item'>
 							<h4 className='footer__title'>Location</h4>
 							<p className='footer__subtitle'>
-								Lorem ipsum dolor sit amet, <br /> consectetur
+								Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit.
 							</p>
 						</section>

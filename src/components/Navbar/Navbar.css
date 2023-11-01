@@ -40,3 +40,15 @@
 	display: flex;
 	gap: 1.5rem;
 }
+/* media */
+@media (width < 96rem) {
+	.navbar {
+		font-size: 1.5rem;
+	}
+}
+
+/* @media (min-width: 86rem) {
+	:is(.navbar__items, .navbar__btn-container) {
+		display: none;
+	}
+} */

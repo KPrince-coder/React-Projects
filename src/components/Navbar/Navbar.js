@@ -17,6 +17,7 @@ const Navbar = function () {
 						/>
 					</a>
 				</div>
+
 				<ul className='navbar__items'>
 					{menuItems.map((item, index) => (
 						<NavItem menuItem={item} key={index} />
